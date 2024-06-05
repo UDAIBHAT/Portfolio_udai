@@ -1,7 +1,7 @@
 # My Portfolio
 Welcome to my portfolio! This project showcases my skills, projects, and experiences as a web developer.
 
-### Weblink: [Live Website](https://udaibhat.github.io/PORTFOLIO_UDAI-BHAT/)
+### Weblink: [Live Website](https://udaibhat.github.io/Portfolio_udai/)
 ## Some Images:
 <img width="450px;" src="https://raw.githubusercontent.com/UDAIBHAT/certificate-pics/main/portfolio%20pic.png"/>
 
@@ -35,7 +35,7 @@ My Portfolio is a React.js application that serves as an online portfolio to sho
 ## Installation
 To run this portfolio locally, follow these steps:
 
-1. Clone the repository: `git clone https://github.com/UDAIBHAT/PORTFOLIO_UDAI-BHAT.git`
+1. Clone the repository: `git clone https://github.com/UDAIBHAT/Portfolio_udai.git`
 2. Navigate to the project directory: `cd PORTFOLIO_UDAI`
 3. Install the dependencies: `npm install`
 4. Start the development server: `npm start`
