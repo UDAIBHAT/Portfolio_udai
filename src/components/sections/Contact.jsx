@@ -51,6 +51,7 @@ const Desc = styled.div`
     font-size: 16px;
   }
 `;
+
 const ContactForm = styled.form`
   width: 95%;
   max-width: 600px;
@@ -64,12 +65,14 @@ const ContactForm = styled.form`
   margin-top: 28px;
   gap: 12px;
 `;
+
 const ContactTitle = styled.div`
   font-size: 28px;
   margin-bottom: 6px;
   font-weight: 600;
   color: ${({ theme }) => theme.text_primary};
 `;
+
 const ContactInput = styled.input`
   flex: 1;
   background-color: transparent;
@@ -83,6 +86,7 @@ const ContactInput = styled.input`
     border: 1px solid ${({ theme }) => theme.primary};
   }
 `;
+
 const ContactInputMessage = styled.textarea`
   flex: 1;
   background-color: transparent;
@@ -96,6 +100,7 @@ const ContactInputMessage = styled.textarea`
     border: 1px solid ${({ theme }) => theme.primary};
   }
 `;
+
 const ContactButton = styled.input`
   width: 100%;
   text-decoration: none;
@@ -131,42 +136,40 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     emailjs
-      .sendForm(
-        "service_tox7kqs",
-        "template_nv7k7mj",
-        form.current,
-        "SybVGsYS52j2TfLbi"
-      )
+    .sendForm('service_786kkbc', 'template_8cs9nms', form.current, {
+      publicKey: 'pxtorPcDQ-ZwN7mxP',
+    })
       .then(
         (result) => {
           alert("Message Sent");
-          form.current.resut();
+          form.current.reset();
         },
         (error) => {
-          alert(error);
+          console.error("EmailJS Error:", error);
+          alert("Failed to send message, please try again later.");
         }
       );
   };
 
   return (
     <Container>
-      <Wrapper>
-        <EarthCanvas />
-        <Title>Contact</Title>
-        <Desc>
-          Feel free to reach out to me for any questions or opportunities!
-        </Desc>
-        <ContactForm onSubmit={handleSubmit}>
-          <ContactTitle>Email Me 🚀</ContactTitle>
-          <ContactInput placeholder="Your Email" name="from_email" />
-          <ContactInput placeholder="Your Name" name="from_name" />
-          <ContactInput placeholder="Subject" name="subject" />
-          <ContactInputMessage placeholder="Message" name="message" rows={4} />
-          <ContactButton type="submit" value="Send" />
-        </ContactForm>
-      </Wrapper>
-    </Container>
-  );
+    <Wrapper>
+      <EarthCanvas />
+      <Title>Contact</Title>
+      <Desc>
+        Feel free to reach out to me for any questions or opportunities!
+      </Desc>
+      <ContactForm ref={form}onSubmit={handleSubmit}>
+        <ContactTitle>Email Me 🚀</ContactTitle>
+        <ContactInput placeholder="Your Email" name="from_email" />
+        <ContactInput placeholder="Your Name" name="from_name" />
+        <ContactInput placeholder="Subject" name="subject" />
+        <ContactInputMessage placeholder="Message" name="message" rows={4} />
+        <ContactButton type="submit" value="Send" />
+      </ContactForm>
+    </Wrapper>
+  </Container>
+);
 };
 
 export default Contact;
