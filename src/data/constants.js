@@ -10,7 +10,7 @@ export const Bio = {
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
     github: "https://github.com/UDAIBHAT",
     resume:
-      "",
+      "https://drive.google.com/file/d/193g0Q4e1B05AsmqiuwWVE2do6wJQrU5n/view?usp=sharing",
     linkedin: "https://www.linkedin.com/in/udai-bhat-693b5122a?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
     twitter: "https://x.com/UdaiBhat?t=ArxOXokIDchclYAM8wJxNg&s=09",
     insta: "https://www.instagram.com/udaibhat_/",
@@ -242,7 +242,26 @@ export const Bio = {
       github: "https://github.com/UDAIBHAT/TYPING_SPEED_TEST-website.git",
       webapp: "https://udaibhat.github.io/TYPING_SPEED_TEST-website/",
     },
-  
+
+    
+    {
+      id: 3,
+      title: "BLOOD-BUDDY",
+      date: "Sep 2023",
+      description:
+        "Blood Buddy is a comprehensive web application aimed at enhancing the process of blood donation and transfusion. It serves as a platform where both blood donors and recipients can connect efficiently. The application facilitates secure user registration and login functionalities, ensuring privacy and security for all users",
+      image:
+        "https://raw.githubusercontent.com/UDAIBHAT/certificate-pics/main/c4.png",
+      tags: ["HTML",
+        "CSS",
+        "JavaScript",
+      "PHP",
+    "MySql",
+  "Bootstrap(Framework)"],
+      category: "web app",
+      github: "https://github.com/UDAIBHAT/The-Blood-Buddy.git",
+      webapp: "https://bloodbuuddy.000webhostapp.com/",
+    },
   
   
   
