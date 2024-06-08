@@ -1,10 +1,10 @@
 export const Bio = {
     name: "Udai Bhat",
     roles: [
-      "Full Stack Developer",
-      "Android Developer",
+      "Frontend Fiddler",
+      "Backend Bandit",
       "Tech.Enthusiastic",
-      "Cloud Commander",
+      "Version Control Villain",
     ],
     description:
       "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -164,10 +164,10 @@ export const Bio = {
     {
       id: 0,
       img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRfktdqhQSWpJmqCfTzhHNjmvjgyFNbnLJ-w&s",
-      school: "Lalbhai Dalpatbhai (L.D) College of Engineering, Ahemdabad",
+      school: "Lalbhai Dalpatbhai (L.D) College of Engineering, Ahmedabad",
       date: "Aug 2021 - Jun 2025",
       grade: "7.96 CGPA",
-      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Lalbhai Dalpatbhai (L.D) College of Engineering, Ahemdabad. I have completed 6 semesters and have a CGPA of 7.96 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
+      desc: "I am currently pursuing a Bachelor's degree in Computer Science and Engineering at Lalbhai Dalpatbhai (L.D) College of Engineering, Ahmedabad. I have completed 6 semesters and have a CGPA of 7.96 . I have taken courses in Data Structures, Algorithms, Object-Oriented Programming, Database Management Systems, Operating Systems, and Computer Networks, among others.",
       degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
     },
     {
