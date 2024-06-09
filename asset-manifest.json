@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/Portfolio_udai/static/css/main.58a0c615.css",
-    "main.js": "/Portfolio_udai/static/js/main.65c63ba1.js",
+    "main.js": "/Portfolio_udai/static/js/main.11656a2d.js",
     "static/media/HeroImage.jpg": "/Portfolio_udai/static/media/HeroImage.21808d3cfa4bc73a0a5f.jpg",
     "index.html": "/Portfolio_udai/index.html",
     "main.58a0c615.css.map": "/Portfolio_udai/static/css/main.58a0c615.css.map",
-    "main.65c63ba1.js.map": "/Portfolio_udai/static/js/main.65c63ba1.js.map"
+    "main.11656a2d.js.map": "/Portfolio_udai/static/js/main.11656a2d.js.map"
   },
   "entrypoints": [
     "static/css/main.58a0c615.css",
-    "static/js/main.65c63ba1.js"
+    "static/js/main.11656a2d.js"
   ]
 }
