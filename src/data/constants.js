@@ -310,6 +310,20 @@ export const Bio = {
       category: "machine learning",
       github: "https://github.com/UDAIBHAT/FACE-RECOGNITION.git",
       webapp: "",
+      member: [
+        {
+          name: "Udai Bhat",
+          img: "https://avatars.githubusercontent.com/u/97431624?v=4",
+          linkedin: "https://www.linkedin.com/in/udai-bhat-693b5122a/?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app",
+          github: "https://github.com/UDAIBHAT",
+        },
+        {
+          name: "Vaishnavi Patel",
+          img: "https://avatars.githubusercontent.com/u/135328382?v=4",
+          linkedin: "https://www.linkedin.com/in/vaishnavi-patel-8115782ab/",
+          github: "https://github.com/Vaishnavipatel26",
+        },
+      ],
     },
     {
       id: 7,
